@@ -1,0 +1,64 @@
+/* Define estilos para todos os elementos HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Define estilos para o corpo da página */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+}
+
+/* Define estilos para a seção principal da página */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Define estilos para o título principal da página */
+h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: #008080;
+}
+
+/* Define estilos para a linha horizontal */
+hr {
+  font-weight: bold;
+  height: 3px;
+  background: #008080;
+  margin-bottom: 10px;
+}
+
+/* Define estilos para a div com a classe "game" */
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Define estilos para os botões do jogo */
+.game button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  background: #f7f7f7;
+  border: 2px solid #008080;
+  color: #008080;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Define estilos para o efeito de hover nos botões */
+.game button:hover {
+  background-color: #008080;
+  color: #fff;
+}
